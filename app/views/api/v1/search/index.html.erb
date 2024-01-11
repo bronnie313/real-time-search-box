@@ -1,9 +1,12 @@
 <h1>Search Analytics</h1>
 
 <input type="text" id="searchInput" placeholder="Search...">
+<div id="suggestionsContainer"></div>
+
 
 <h2>Top trends</h2>
 <ul id="topSearchesContainer"></ul>
 
 <%= javascript_include_tag 'search' %>
 <%= javascript_include_tag 'trends' %>
+<%= javascript_include_tag 'suggestions' %>

@@ -15,6 +15,17 @@ class Api::V1::SearchController < ApplicationController
     def top_searches
         most_searched = Search.select("search_query, COUNT(*) as query_count").group(:search_query).order("query_count DESC").limit(5)
         render json: { top_searches: most_searched }, status: :ok
-      end
+    end
+
+    def suggestions
+        suggest_query = params[:suggest_query]
+
+        if suggest_query.present?
+            suggestions = Search.where('search_query ILIKE ?', "#{suggest_query}%").distinct.limit(5).pluck(:search_query)
+            render json: { suggestions: suggestions }, status: :ok
+         else
+            render json: { error: 'Missing suggest_query parameter' }, status: :bad_request
+        end
+    end
 end
 
