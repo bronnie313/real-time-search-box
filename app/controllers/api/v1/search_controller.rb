@@ -11,4 +11,10 @@ class Api::V1::SearchController < ApplicationController
         Search.create(search_query: search_query, user_ip: user_ip)
         render json: { message: 'Search query recorded successfuly' }, status: :created
     end
+
+    def top_searches
+        most_searched = Search.select("search_query, COUNT(*) as query_count").group(:search_query).order("query_count DESC").limit(5)
+        render json: { top_searches: most_searched }, status: :ok
+      end
 end
+

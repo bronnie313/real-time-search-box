@@ -1,5 +1,5 @@
 class Search < ApplicationRecord
-    validates_presence_of :query, :user_ip
+    validates :search_query, presence: true
 end
 
 

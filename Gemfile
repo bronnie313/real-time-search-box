@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.8"
 
 gem 'actioncable'
 
+gem 'rack-cors'
+
 # gem 'rails-ujs', '~> 0.1.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
