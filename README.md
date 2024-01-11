@@ -171,7 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: `https://github.com/bronnie313/real-time-search-box.git`
+You can deploy this project using: ` Render or Heroku `
 
 <!--
 Example:
