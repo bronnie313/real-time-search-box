@@ -12,7 +12,8 @@ class Api::V1::SearchController < ApplicationController
   end
 
   def top_searches
-    most_searched = Search.select('search_query, COUNT(*) as query_count').group(:search_query).order('query_count DESC').limit(5)
+    most_searched = Search.select('search_query, COUNT(*) as query_count')
+      .group(:search_query).order('query_count DESC').limit(5)
     render json: { top_searches: most_searched }, status: :ok
   end
 
