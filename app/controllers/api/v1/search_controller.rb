@@ -20,8 +20,7 @@ class Api::V1::SearchController < ApplicationController
     suggest_query = params[:suggest_query]
 
     if suggest_query.present?
-      suggestions = Search.where('search_query ILIKE ?',
-                                 "#{suggest_query}%").distinct.limit(5).pluck(:search_query)
+      suggestions = Search.where('search_query ILIKE ?', "%#{suggest_query}%").distinct.limit(5).pluck(:search_query)
       render json: { suggestions: }, status: :ok
     else
       render json: { error: 'Missing suggest_query parameter' }, status: :bad_request
