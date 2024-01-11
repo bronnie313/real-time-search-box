@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const topSearchesContainer = document.getElementById('topSearchesContainer');
+    const topTrends = document.getElementById('topTrends');
     const searchInput = document.getElementById('searchInput');
     let typingTimer;
   
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function renderTopSearches(topSearches) {
-      topSearchesContainer.innerHTML = '';
+      topTrends.innerHTML = '';
   
       const ul = document.createElement('ul');
   
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ul.appendChild(li);
       });
   
-      topSearchesContainer.appendChild(ul);
+      topTrends.appendChild(ul);
     }
   
     fetchAndRenderTopSearches();

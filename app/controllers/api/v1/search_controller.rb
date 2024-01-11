@@ -29,8 +29,8 @@ class Api::V1::SearchController < ApplicationController
     end
 
     def recent_searches
-        recent_searches = Search.select("DISTINCT ON (search_query) search_query, created_at").order("search_query, created_at DESC").limit(5)
+        recent_searches = Search.order("created_at DESC").limit(5)
         render json: { recent_searches: recent_searches }, status: :ok
-    end
+    end      
 end
 

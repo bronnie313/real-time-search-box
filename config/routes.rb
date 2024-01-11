@@ -7,6 +7,7 @@ Rails.application.routes.draw do
         collection do
           get 'top_searches'
           get 'suggestions'
+          get 'recent_searches'
         end
       end
     end
