@@ -27,5 +27,10 @@ class Api::V1::SearchController < ApplicationController
             render json: { error: 'Missing suggest_query parameter' }, status: :bad_request
         end
     end
+
+    def recent_searches
+        recent_searches = Search.select("DISTINCT ON (search_query) search_query, created_at").order("search_query, created_at DESC").limit(5)
+        render json: { recent_searches: recent_searches }, status: :ok
+    end
 end
 
