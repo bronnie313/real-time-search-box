@@ -216,6 +216,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  actioncable
   bootsnap
   capybara
   debug
