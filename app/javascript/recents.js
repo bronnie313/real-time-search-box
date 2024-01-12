@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       fetch(`/api/v1/search/recent_searches?query=${query}`)
         .then(response => response.json())
         .then(data => {
+         console.log('API Response:', data);
           renderRecentSearches(data.recent_searches);
         })
         .catch(error => console.error('Error fetching recent searches:', error));
