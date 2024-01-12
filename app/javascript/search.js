@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.error('Fetch error:', error);
                 })
             }
-        }, 5000);
+        }, 4000);
     });
 });
   
