@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
     REALTIME ANALYTIC SEARCH BOX 
 </div>
 
@@ -96,7 +96,7 @@ This is a rails + vanila js realtime search box project, that records the user's
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://realtime-search-box-v7ti.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
@@ -171,7 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: `https://github.com/bronnie313/real-time-search-box.git`
+You can deploy this project using: ` Render or Heroku `
 
 <!--
 Example:
@@ -216,7 +216,7 @@ Feel free to check the [issues page](https://github.com/bronnie313/real-time-sea
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-If you like this project please feel free to check it out on my GitHub and give me a star thanks.
+If you like this project, please check it out on my GitHub and thanks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +224,7 @@ If you like this project please feel free to check it out on my GitHub and give 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank HelpJuice, for the opportunity to offer me with this test project.And also I Would like to thank Everyone who has been there for me since my initial days of code Kudos to you I really appreciate your efforts. 
+I want to thank HelpJuice, for the opportunity to offer me this test project. Also, I Would like to thank Everyone who has been there for me since my initial days of code Kudos to you I appreciate your efforts. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
