@@ -96,7 +96,7 @@ This is a rails + vanila js realtime search box project, that records the user's
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://realtime-search-box-v7ti.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
