@@ -1,12 +1,12 @@
 databases:
-  - name: real-time-search-box
+  - name: helpjuice
     databaseName: helpjuice_64v5
     user: helpjuice_64v5_user
     plan: free
 
 services:
   - type: web
-    name: real-time-search-box
+    name: realtime-search-box
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
