@@ -14,7 +14,7 @@ class Api::V1::SearchController < ApplicationController
   def top_searches
     user_ip = request.remote_ip
 
-    most_searched = Search.where(user_ip:).select('search_query, COUNT(*) as query_count')
+    most_searched = Search.where(user_ip: user_ip).select('search_query, COUNT(*) as query_count')
       .group(:search_query).order('query_count DESC').limit(5)
     render json: { top_searches: most_searched }, status: :ok
   end
@@ -24,7 +24,7 @@ class Api::V1::SearchController < ApplicationController
     user_ip = request.remote_ip
 
     if suggest_query.present?
-      suggestions = Search.where(user_ip:).where('search_query ILIKE ?',
+      suggestions = Search.where(user_ip: user_ip).where('search_query ILIKE ?',
                                                  "%#{suggest_query}%").distinct.limit(5).pluck(:search_query)
       render json: { suggestions: }, status: :ok
     else
@@ -35,7 +35,7 @@ class Api::V1::SearchController < ApplicationController
   def recent_searches
     user_ip = request.remote_ip
 
-    recent_searches = Search.where(user_ip:).order('created_at DESC').limit(5)
+    recent_searches = Search.where(user_ip: user_ip).order('created_at DESC').limit(5)
     render json: { recent_searches: }, status: :ok
   end
 end
