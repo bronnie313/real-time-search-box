@@ -1,0 +1,13 @@
+input#searchInput {
+    outline: 1px solid darkgray;
+    width: 95%;
+    margin: 5px;
+}
+
+.search {
+    width: 50%;
+    border: 1px solid;
+    background: gainsboro;
+    color: grey;
+    border-radius: 6px;
+}
