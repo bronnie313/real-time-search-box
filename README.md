@@ -224,7 +224,7 @@ If you like this project, please check it out on my GitHub. Thanks.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to thank HelpJuice, for the opportunity to offer me this test project. Also, I Would like to thank Everyone who has been there for me since my initial days of code Kudos to you I appreciate your efforts. 
+I want to thank HelpJuice, for the opportunity to offer me this test project. Also, I Would like to thank Everyone who has been there for me since my initial days of coding, Kudos to you I appreciate your efforts. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
