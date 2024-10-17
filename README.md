@@ -171,7 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: ` Render or Heroku `
+You can deploy this project using: ` Render, Heroku or webdock `
 
 <!--
 Example:
