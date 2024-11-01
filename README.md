@@ -53,9 +53,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Real-Time Analytic Search Box] <a name="about-project"></a>
+# 📖 Real-Time Analytic Search Box <a name="about-project"></a>
 
-This is a Rails + Vanilla JS real-time search box project that records the user's input in real-time and displays analytics and trends regarding what people are searching for the most.
+This is a Rails + Vanilla JS real-time search box project that records the user's input in real time and displays analytics and trends regarding what people are searching for the most.
 
 ## 🛠 Built With <a name="built-with"></a>
 
