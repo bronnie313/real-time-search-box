@@ -199,7 +199,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Advanced Ruby Perfomance**
+- [ ] **Advanced Ruby Performance**
+- [ ] **Advanced CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
