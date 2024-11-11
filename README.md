@@ -55,7 +55,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Real-Time Analytic Search Box <a name="about-project"></a>
 
-This is a Rails + Vanilla JS real-time search box project that records the user's input in real time and displays analytics and trends regarding what people are searching for the most.
+This is a Rails + Vanilla JS real-time search box project that records the user's input in real-time and displays analytics and trends regarding what people are searching for the most.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -171,7 +171,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: ` Render, Heroku or web dock `
+You can deploy this project using: ` Render, Heroku or Web Dock`
 
 <!--
 Example:
